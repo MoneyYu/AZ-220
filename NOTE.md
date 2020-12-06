@@ -1,6 +1,6 @@
-AZ-104 Labs (https://aka.ms/AZ104Labs)
-AZ-104 Lab files (https://aka.ms/AZ104LabFiles)
+[AZ-220 Labs](https://aka.ms/AZ220Labs)
+[AZ-220 Labs CHS](https://github.com/MicrosoftLearning/AZ-220ZH-Microsoft-Azure-IoT-Developer/tree/master/Instructions/Labs)
+[AZ-220 Lab files](https://aka.ms/AZ220LabFiles)
 
-## MOD 04
-
-http://www.subnet-calculator.com/cidr.php
+https://aka.ms/AZ220/StudyGuide
+https://aka.ms/AZ220/IoTShow

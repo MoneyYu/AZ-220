@@ -6,7 +6,7 @@ provider "azurerm" {
 }
 
 locals {
-  group_name               = "AZ104-${formatdate("MMDDHHmm", timestamp())}"
+  group_name               = "AZ220-${formatdate("MMDDHHmm", timestamp())}"
   location                 = "southeastasia"
   lab01_name               = "lab01"
   lab02_name               = "lab02"
@@ -67,7 +67,7 @@ resource "random_integer" "rint" {
 }
 
 # Create a resource group if it doesn't exist
-resource "azurerm_resource_group" "az104" {
+resource "azurerm_resource_group" "group" {
   name     = local.group_name
   location = local.location
 
