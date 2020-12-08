@@ -14,6 +14,7 @@ locals {
   lab04_name               = "lab04"
   lab05a_name              = "lab05a"
   lab05b_name              = "lab05b"
+  lab06_name               = "lab06"
   lab06a_name              = "lab06a"
   lab06b_name              = "lab06b"
   lab06c_name              = "lab06c"
@@ -32,6 +33,7 @@ locals {
   lab04_name_with_postfix  = lower("${local.lab04_name}${random_string.rid.result}")
   lab05a_name_with_postfix = lower("${local.lab05a_name}${random_string.rid.result}")
   lab05b_name_with_postfix = lower("${local.lab05b_name}${random_string.rid.result}")
+  lab06_name_with_postfix  = lower("${local.lab06_name}${random_string.rid.result}")
   lab06a_name_with_postfix = lower("${local.lab06a_name}${random_string.rid.result}")
   lab06b_name_with_postfix = lower("${local.lab06b_name}${random_string.rid.result}")
   lab06c_name_with_postfix = lower("${local.lab06c_name}${random_string.rid.result}")
