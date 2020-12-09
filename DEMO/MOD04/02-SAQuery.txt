@@ -1,0 +1,4 @@
+SELECT *
+INTO BlobOutput
+FROM IoTHubInput
+HAVING Temperature > 27

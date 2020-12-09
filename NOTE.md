@@ -4,3 +4,5 @@
 
 https://aka.ms/AZ220/StudyGuide
 https://aka.ms/AZ220/IoTShow
+
+[](https://zhuanlan.zhihu.com/p/40035569)
