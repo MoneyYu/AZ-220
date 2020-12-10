@@ -1,0 +1,13 @@
+"desired": {
+    "ms_iotn:urn_azureiot_Security_SecurityAgentConfiguration": {
+      "baselineCustomChecksEnabled": {
+        "value": true
+      },
+      "baselineCustomChecksFilePath": {
+        "value": "/home/user/full_path.xml"
+      },
+      "baselineCustomChecksFileHash": {
+        "value": "#hashexample!"
+      }
+    }
+  }

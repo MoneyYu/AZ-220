@@ -1,3 +1,0 @@
-## COSMOS-DB
-
-## DATABRICKS

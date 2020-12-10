@@ -15,7 +15,7 @@ namespace Mod02
         // Note: in real-world applications you would not "hard-code" the connection string
         // It could be stored within an environment variable, passed in via the command-line or
         // stored securely within a TPM module.
-        private static readonly string _connectionString = "HostName=demo1207.azure-devices.net;DeviceId=device01;SharedAccessKey=53PrkR4o2p3UDyAG8IyTEPQa6EY+RwchhurQYsK8fqE=";
+        private static readonly string _connectionString = "HostName=demo1207.azure-devices.net;DeviceId=device02;SharedAccessKey=qkWC4mohfXX+TuqoYSuAGALFZ4kKaPfcefxDKHPJoC8=";
 
         private static void Main(string[] args)
         {
