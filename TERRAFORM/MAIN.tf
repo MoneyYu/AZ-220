@@ -1,13 +1,19 @@
+terraform {
+  required_providers {
+    azurerm = {
+      source  = "hashicorp/azurerm"
+      version = "~>2.0"
+    }
+  }
+}
+
 provider "azurerm" {
-  # The "feature" block is required for AzureRM provider 2.x. 
-  # If you are using version 1.x, the "features" block is not allowed.
-  version = "~>2.0"
   features {}
 }
 
 locals {
   group_name               = "AZ220-${formatdate("MMDDHHmm", timestamp())}"
-  location                 = "southeastasia"
+  location                 = "eastasia"
   lab01_name               = "lab01"
   lab02_name               = "lab02"
   lab03_name               = "lab03"
@@ -48,7 +54,7 @@ locals {
   lab11_name_with_postfix  = lower("${local.lab11_name}${random_string.rid.result}")
   user_name                = "demouser"
   user_passowrd            = "Azuredemo2020"
-  vm_size                  = "Standard_D4s_v4"
+  vm_size                  = "Standard_B4ms"
 }
 
 data "http" "myip" {
