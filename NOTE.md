@@ -21,5 +21,5 @@ MTT Helper message
 ![image](https://user-images.githubusercontent.com/891383/159160723-e6d35b07-6376-4306-b839-3d15ae9f77dd.png)
 
 ```
-Hello $(Parent.Content), <br/> Welcome to the AZ-220 course, <br/>Reference links: https://aka.yu.money/az220
+Hello $(Parent.Content). <br/><br/> Welcome to the ($(Dynamight.DeliveryId)) - $(Dynamight.CourseNumber) $(Dynamight.CourseTitle) - Day $(Dynamight.DayNumber) delivery. <br/><br/> Here is the reference links: https://aka.yu.money/$(Dynamight.CourseNumber)
 ```
