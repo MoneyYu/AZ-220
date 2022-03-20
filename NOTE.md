@@ -15,6 +15,11 @@ https://aka.ms/AZ220/IoTShow
 [AZ-220 Survey](https://aka.ms/az220survey)
 
 MTT Helper message
+
+![image](https://user-images.githubusercontent.com/891383/159160693-b2f100e5-ef40-4b36-b02c-c29f38122ec2.png)
+
+![image](https://user-images.githubusercontent.com/891383/159160723-e6d35b07-6376-4306-b839-3d15ae9f77dd.png)
+
 ```
 Hello $(Parent.Content), <br/> Welcome to the AZ-220 course, <br/>Reference links: https://aka.yu.money/az220
 ```
