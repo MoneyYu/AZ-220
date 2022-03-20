@@ -13,3 +13,8 @@ https://aka.ms/AZ220/IoTShow
 [End of Day](https://aka.ms/endofday)
 
 [AZ-220 Survey](https://aka.ms/az220survey)
+
+MTT Helper message
+```
+Hello $(Parent.Content), <br/> Welcome to the AZ-220 course, <br/>Reference links: https://aka.yu.money/az220
+```
