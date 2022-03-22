@@ -1,6 +1,6 @@
-## MOD-02-IOT HUB
+## MOD-02-IOT-HUB
 resource "azurerm_storage_account" "lab02" {
-  name                     = local.lab02_name_with_postfix
+  name                     = lower("${local.lab02_name}stor${random_string.rid.result}")
   resource_group_name      = azurerm_resource_group.group.name
   location                 = azurerm_resource_group.group.location
   account_tier             = "Standard"
@@ -14,14 +14,14 @@ resource "azurerm_storage_container" "lab02" {
 }
 
 resource "azurerm_eventhub_namespace" "lab02" {
-  name                = local.lab02_name_with_postfix
+  name                = lower("${local.lab02_name}-eventspace-${random_string.rid.result}")
   resource_group_name = azurerm_resource_group.group.name
   location            = azurerm_resource_group.group.location
   sku                 = "Standard"
 }
 
 resource "azurerm_eventhub" "lab02" {
-  name                = local.lab02_name_with_postfix
+  name                = lower("${local.lab02_name}-eventhub-${random_string.rid.result}")
   resource_group_name = azurerm_resource_group.group.name
   namespace_name      = azurerm_eventhub_namespace.lab02.name
   partition_count     = 2
@@ -37,7 +37,7 @@ resource "azurerm_eventhub_authorization_rule" "lab02" {
 }
 
 resource "azurerm_iothub" "lab02" {
-  name                = local.lab02_name_with_postfix
+  name                = lower("${local.lab02_name}-iothub-${random_string.rid.result}")
   resource_group_name = azurerm_resource_group.group.name
   location            = azurerm_resource_group.group.location
 
